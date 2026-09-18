@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LNAIT 2000 | Code & Programming</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="site-header">
+        <div class="container header-container">
+            <div class="site-branding">
+                <a href="index.html" class="site-title">LNAIT 2000</a>
+                <p class="site-description">Code, Programming & Tech Insights</p>
+            </div>
+            <button class="mobile-toggle" aria-label="Toggle Navigation" id="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="main-nav" id="main-nav">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#articles">Articles</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-avatar">
+                <img src="images/avatar.svg" alt="LNAIT 2000 Logo">
+            </div>
+            <div class="hero-content">
+                <h1>Welcome to LNAIT 2000</h1>
+                <p>Exploring software engineering, web development, algorithm design, and modern dev tools.</p>
+                <a href="#articles" class="btn">Explore Articles</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Layout -->
+    <div class="container layout-grid">
+        <main class="main-content" id="articles">
+            <h2 class="section-heading">Recent Posts</h2>
+
+            <!-- Post 1 -->
+            <article class="post-card">
+                <div class="post-image">
+                    <img src="images/post-cover.svg" alt="Post Cover">
+                </div>
+                <div class="post-body">
+                    <div class="post-meta">September 18, 2026 • <span>Programming</span></div>
+                    <h3 class="post-title"><a href="#">Getting Started with Web Architecture and Static Hosting</a></h3>
+                    <p class="post-excerpt">Learn how modern static site generators and GitHub Pages provide resilient, low-latency, and cost-free website deployment options.</p>
+                    <a href="#" class="read-more">Read Full Post &rarr;</a>
+                </div>
+            </article>
+
+            <!-- Post 2 -->
+            <article class="post-card">
+                <div class="post-image">
+                    <img src="images/post-cover.svg" alt="Post Cover">
+                </div>
+                <div class="post-body">
+                    <div class="post-meta">September 12, 2026 • <span>Development</span></div>
+                    <h3 class="post-title"><a href="#">Essential Command Line Tools Every Developer Should Know</a></h3>
+                    <p class="post-excerpt">From web downloading tools like wget to version control with Git, streamline your terminal workflow with these daily utility commands.</p>
+                    <a href="#" class="read-more">Read Full Post &rarr;</a>
+                </div>
+            </article>
+        </main>
+
+        <!-- Sidebar -->
+        <aside class="sidebar" id="about">
+            <div class="widget">
+                <h3 class="widget-title">About the Site</h3>
+                <p>LNAIT 2000 is a dedicated resource blog covering coding concepts, web development tutorials, and software architecture guides.</p>
+            </div>
+
+            <div class="widget">
+                <h3 class="widget-title">Categories</h3>
+                <ul class="widget-list">
+                    <li><a href="#">Web Development (12)</a></li>
+                    <li><a href="#">Python & Backend (8)</a></li>
+                    <li><a href="#">DevOps & Hosting (5)</a></li>
+                    <li><a href="#">Algorithms (9)</a></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 LNAIT 2000. Hosted on <a href="https://pages.github.com" target="_blank" rel="noopener">GitHub Pages</a>.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
